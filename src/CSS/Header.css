@@ -1,112 +1,147 @@
-.headerNav{
+.header{
+    background: rgb(255,153,51);
+    background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo1{
+    flex: 0.3;
+    width: fit-content ;  
+}
+
+.header__logo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none !important;
+
+}
+
+.header__logo__text{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content:space-between ;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: #363B41 !important;
+    padding : 5px;
+    justify-content: space-around;
 }
 
-.headerLeftContainer{
-    flex: 0.9;
+.underlinks{
+    justify-content: space-around;
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
-.headerLeftContainer__link{
-    text-decoration: none !important;
+.email{
+   /* margin-top: 2%;*/
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }
 
-.headerRightContainer{
-    display:flex;
+.header__logo > img {
+    height: 125px;
+    width: 125px;
+    margin: 10px 0px;
+    margin-right: 5%;
+}
+
+.header__middle{
+    flex: 0.5;
+    display: flex;
+    margin : 7px;
     flex-direction: row;
-    margin-bottom: 1%;
-    flex: 0.1;
+    align-items: right;
+    justify-content: space-evenly;
 }
 
-
-.companyLogo{
-    height:70px;
-    width:70px; 
+.header__middle > img{
+    height: 80px;
+    width: 50px;
+    background-color: transparent;
 }
-
-
-.companyName{
-    font-size: 1.5em ;
-    color: white ;
-    font-weight: bold;
-}
-.signup__div{
-    cursor: pointer;
-}
-
-.headerRightContainer__span{
-    font-size: 1.5em ;
-    color: white ;
-    font-weight: bold;
-}
-
-.signup__link{
+.header__middle > span {
+    color: black;
+    font-size: 2.5rem;    
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
+
+}
+.header__links{
+    flex: 0.3;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-around;
+    color: black;
 }
 
-.personal__img{
-    color: white;
-    margin-right: 5% !important;
-    font-size: 2em !important;
-}
 
-.avtar__link{ 
+.links{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
 }
 
-.avtarBox__img{
-    font-size: 2em !important;
-    margin-right: 5% !important;
-   
-}
 
-.avtarBox__span{
-    cursor: pointer;
-    font-size: 1.5em ;
-    color: white ;
-    font-weight: bold;
-   
-}
 
-/* 1500 , 500  https://legaldocs.co.in/gst-registration  */
+                
+@media screen and (max-width: 960px) {
 
-@media screen and (max-width:960px){
 
-    .companyLogo{
-        height:50px;
-        width:50px; 
+    
+  
+    .underlinks{
+        font-size: 0.2rem;
     }
 
-    .companyName{
-        font-size: 1em ;
-        color: white ;
-        font-weight: bold;
-    }
-
-    .headerRightContainer__span{
-        font-size: 1em ;
-        color: white ;
-        font-weight: bold;
-    }
-
-    .avtarBox__span{
-        font-size: 1em ;
-        color: white ;
-        font-weight: bold;
+    .email{
+        font-size: 0.2rem;
     }
     
-
-
+    .header__logo > img {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .header__middle{
+        flex: 0.3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-evenly; */
+    }
+    
+    .header__middle > img{
+        height: 30px;
+        width: 20px;
+    }
+    .header__middle > span {
+        color: black;
+        font-size: 0.4rem;
+        text-decoration: none !important;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .header__links{
+        flex: 0.3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: black;
+    }
+    
+    
+    .links{
+        font-size:0.4rem;
+    }
+    
+    
 
 }

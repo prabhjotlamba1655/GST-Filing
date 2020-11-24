@@ -1,56 +1,52 @@
 import React from 'react'
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import logo from "../Media/logo.png";
 import "../CSS/Footer.css";
+import CallIcon from '@material-ui/icons/Call';
+import MailIcon from '@material-ui/icons/Mail';
+import logo from '../Media/logo2.png'
 
 function Footer() {
 
   return (
-    <Navbar className="footerNav" bg="dark">
-
-      <Navbar.Brand className="footerLeftContainer">
-        <Link to="/" className="footerLeftContainer__link"  >
-          <img src={logo} className="companyLogo" alt="logo" />{" "}
-          <span className="companyName"> Easy GST </span>
-        </Link>
-      </Navbar.Brand>
-
-
-      <div className="footerRight">
-        <span className="developersTitle">Developed by</span>
-        <div className="developers">
-
-          <a
-            className={"footer__link3"}
-            href={`mailto: sumitsaurabh9868@gmail.com`}
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
-            Sumit Saurabh
-          </a>
-
-          <a
-            className={"footer__link1"}
-            href={`mailto: prabhjotlamba2001@gmail.com `}
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
-            Prabhjot Singh
-            </a>
-
-          <a
-            className={"footer__link2"}
-            href={`mailto: abhijeetvarun@gmail.com`}
-            target={"_blank"}
-            rel="noopener noreferrer"
-          >
-            Abhijeet Varun
-            </a>
-
-        </div>
+    <div className="footer_div">
+      <div className="footer_left">
+                <div className="phone">
+                    <CallIcon className="call" />
+                    <span className="second__links">9315744106</span>
+                </div>
+                <div className="header__logo1">
+                 <Link className="header__logo" to="/home">
+                    < img src={logo} alt=" company logo" />
+                    <div className="header__logo__text">
+                        <span className="links"> GST Suvidha Kendra </span>
+                        <span className="underlinks"> An Authorised GSP</span>
+                      
+                    </div>
+                 </Link>
+               </div>
       </div>
-    </Navbar>
+      <div className="footer_right">
+        <div className="footer_right_upper">
+            <div className="mail_address">
+                <MailIcon className="call" />
+                 <span className="email">services@gstinsuvidhakendra.com</span>
+             </div>
+             <div className="address" >
+                <MailIcon className="call" />
+                 <span className="email">services@gstinsuvidhakendra.com</span>
+             </div>
+        </div>
+        <div className="GST">
+
+                <span>
+                    Goods and Services Tax
+                </span>
+        </div>
+
+      </div>
+
+    </div>
 
   )
 }
