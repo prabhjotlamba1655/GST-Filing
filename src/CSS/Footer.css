@@ -1,70 +1,64 @@
-.footerNav{
-    display: flex;
+.footer_div{
+    display : flex;
     flex-direction: row;
-    justify-content:space-between ;
-    padding-left: 2%;
-    padding-right: 2%;
-    background-color: #363B41 !important;
+    width : 100%;
+    background: rgb(255,153,51);
+    background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
 }
-
-.footerRight{
-    width: 23%;
-    /* flex: 0.2; */
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color:white;
-    align-items: center;
+.footer_left{
+    width : 35%;
 }
-
-
-.developersTitle{
-    text-align: center;
-    font-size:1.5rem;
+.footer_right{
+    width : 65%;
 }
-
-
-.footerLeftContainer__link{
-
+.phone{
+    margin :10px; 
+    font-size: 20px;
+    color : black;
+}
+.footer_right_upper{
+    display : flex;
+    flex-direction: row;
+}
+.mail_address{
+    width : 50%;
+    margin :10px; 
+    font-size: 25px;
+    color : black;
+}
+.address{
+    width : 50%;
+    text-align: right;
+   margin :10px; 
+   font-size: 20px;
+    color : black;
+}
+.GST{
+   text-align: right;
+   margin :10px; 
+   color: black;
+   font-size: 2.5rem;    
+   font-weight: 700;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none !important;
+}
+.header__logo1{
+    width : 100%;
+}
+.header__logo1 img{
+    height :75px;
+    width : 75px;
+}
+.links{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
 
 }
-
-.developers{
-    display:flex;
-    flex-direction: row;
-    /* text-align: center; */
-    justify-content: space-between;
-    font-size: 1.0rem ;
-    width: 100%;
-    /* background-color: aqua; */
-}
-
-.developers > a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer__link1{
-    flex: 1;
-}
-
-.footer__link2{
-    flex: 1;
-}
-
-.footer__link3{
-    flex: 1;
-}
-
-
-
-
-@media screen and (max-width:786px){
-    .footerRight{
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+.underlinks{
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
 }

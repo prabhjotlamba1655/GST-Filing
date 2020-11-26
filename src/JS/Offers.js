@@ -85,7 +85,7 @@ function Offers() {
                 </div>
 
                 <span>Offer valid for today only</span>
-                <br/>
+                
                 <button className="offerButton" id="myBtn" onClick={btn}>Buy Now</button>
             </div>
         </div>

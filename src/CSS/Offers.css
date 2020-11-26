@@ -28,12 +28,13 @@ html, body {
     position: fixed  ; 
     right : 10px;
     //align-self: flex-end;
-    margin-right: 10px;
-    display: flex;
+    margin-right : 10px;
+    display : flex;
     flex-direction: column;
     text-align: left;
     background-color: #3b3b3b;
     height: 50vh;
+    width : 27vw;
     padding: 10px;
     border-radius: 10px;
 }
@@ -240,11 +241,12 @@ html, body {
     }
     
     .offers__banner__right{
+        width : 46vw;
         flex: 0.6;
         align-self: center;
         position: relative ; 
         margin-right: 0px;
-        height: 40vh;
+        height: 38vh;
         padding: 5%;
         border-radius: 10px;
         margin-top: 2%;
@@ -293,7 +295,6 @@ html, body {
         color: red;
     }
     .modal-content{
-        width : 80%;
+        width : 70vw;
     }
-    
 }
