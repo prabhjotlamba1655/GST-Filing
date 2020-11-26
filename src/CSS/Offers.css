@@ -3,8 +3,6 @@
     height: 60vh;
     display: flex;
     flex-direction: row;
-    //justify-content: space-around;
-    //border : 5px solid yellow;
 }
 
 html, body {
@@ -27,7 +25,6 @@ html, body {
 .offers__banner__right{
     position: fixed  ; 
     right : 10px;
-    //align-self: flex-end;
     margin-right : 10px;
     display : flex;
     flex-direction: column;
@@ -50,7 +47,6 @@ html, body {
 
     align-items: center;
     color: black;
-    /*font-family: 'Trebuchet MS','Nunito Sans', sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.7rem;
 }
@@ -61,7 +57,6 @@ html, body {
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    /*font-family: 'Trebuchet MS','Nunito Sans', sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -149,7 +144,6 @@ html, body {
 .modalForm {
     border-radius: 2%;
     padding: 30px;
-    //min-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;

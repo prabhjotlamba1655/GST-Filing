@@ -1,3 +1,4 @@
 1) signout press karne ke baad dashboard open ho rha hai 
 2) form ka db bnana hai 
 3) model aur upload wale me thode error hai 
+4) relative poster on sign up page 

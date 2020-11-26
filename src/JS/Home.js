@@ -2,6 +2,7 @@ import React from 'react'
 import '../CSS/Home.css'
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
+import Landing from './Landing';
 import { db } from "./firebase.js";
 import { Link, useHistory } from 'react-router-dom'
 import img1 from '../Media/fssai.jpg'
@@ -9,7 +10,6 @@ import img2 from '../Media/gst.jpg'
 import img5 from '../Media/msme.jpg'
 import img9 from '../Media/pan.jpg'
 import img10 from '../Media/ewaybill.jpg'
-
 
 
 function Home() {
@@ -177,6 +177,12 @@ function Home() {
                     </div>
                 </div>
 
+
+            </div>
+
+            <div className="content__box">
+
+                <Landing/>
 
             </div>
 

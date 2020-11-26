@@ -1,0 +1,99 @@
+.landing__gifleft{
+    border-radius: 20px;
+    margin: 2% 0px;
+}
+
+
+.landing__head > h1{
+    color: black;
+    text-align: center;
+    font-size: 2.0rem ;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.landing__all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing__gif{
+    flex: 0.5;
+
+}
+
+.landing__gif > img{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.landing__text{
+    flex: 0.5;
+    color: black;
+}
+
+
+.box{
+    color: black;
+  } 
+  .question{
+    padding: 5px 5px ;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: left;  
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .answer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    text-align: center;
+  }
+   
+
+@media screen and (max-width:960px){
+
+
+    .landing__gifleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    .landing__head > h1{
+        font-size: 2.5vh;
+    }
+    
+    
+    
+    .landing__all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }        
+    
+    .landing__gif{
+        flex: 0.4;
+    }
+    
+    .landing__gif > img{
+        width:95%;
+        height: 80%;
+        border-radius: 20px;
+    }
+    
+    .landing__text{
+        flex: 0.6;
+        font-weight: bolder;
+    }
+    .landing__text > p{
+        font-size: 2vw;
+    }
+
+}

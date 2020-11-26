@@ -118,7 +118,7 @@
 }
 
 
-.home__banner{
+.home__banner {
     width: 100%;
     height: 350px;
     background-image: url("../Media/banner.jpg");
@@ -126,33 +126,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-
-.banner__heading{
-    font-family: 'Roboto', sans-serif;
+  }
+  
+  .banner__heading {
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
-           
-}
-
-.banner__text{
+  }
+  
+  .banner__text {
     margin: 3% 0%;
     align-self: center;
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.banner__para{
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .banner__para {
     margin: 2% 0%;
     width: 70%;
     text-align: center;
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-
+    font-family: "Roboto", sans-serif;
+  }
+  
 .home__services{   
     display: flex;
     flex-direction: column;
@@ -225,37 +220,32 @@
     }
     
     
-    .home__banner{
+    .home__banner {
         width: 100%;
-        height: 150px;
+        height: fit-content;
         background-image: url("../Media/banner.jpg");
         background-size: 100% 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+      }
     
-
-    
-    
-    .banner__heading{
+      .banner__heading {
         font-size: 1rem;
-               
-    }
+      }
     
-    .banner__text{
+      .banner__text {
         margin: 5% 0%;
         align-content: center;
         font-size: 0.8rem;
-    }
+      }
     
-    .banner__para{
+      .banner__para {
         margin: 2% 0%;
         width: 70%;
         text-align: center;
-        font-size: 0.8rem;    
-    }
-
+        font-size: 0.8rem;
+      }
     
     
     .home__services{   

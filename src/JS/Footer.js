@@ -1,54 +1,51 @@
-import React from 'react'
-import Navbar from "react-bootstrap/Navbar";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../CSS/Footer.css";
-import CallIcon from '@material-ui/icons/Call';
-import MailIcon from '@material-ui/icons/Mail';
-import logo from '../Media/logo2.png'
+import logo from "../Media/logo2.png";
 
 function Footer() {
-
   return (
-    <div className="footer_div">
-      <div className="footer_left">
-                <div className="phone">
-                    <CallIcon className="call" />
-                    <span className="second__links">9315744106</span>
-                </div>
-                <div className="header__logo1">
-                 <Link className="header__logo" to="/home">
-                    < img src={logo} alt=" company logo" />
-                    <div className="header__logo__text">
-                        <span className="links"> GST Suvidha Kendra </span>
-                        <span className="underlinks"> An Authorised GSP</span>
-                      
-                    </div>
-                 </Link>
-               </div>
-      </div>
-      <div className="footer_right">
-        <div className="footer_right_upper">
-            <div className="mail_address">
-                <MailIcon className="call" />
-                 <span className="email">services@gstinsuvidhakendra.com</span>
-             </div>
-             <div className="address" >
-                <MailIcon className="call" />
-                 <span className="email">services@gstinsuvidhakendra.com</span>
-             </div>
-        </div>
-        <div className="GST">
-
-                <span>
-                    Goods and Services Tax
-                </span>
-        </div>
-
+    <nav className="footer">
+      <div className="footer__upper">
+        <Link className="footer__logo" to="/">
+          <img src={logo} alt=" company logo" />
+          <div className="footer__logo__text">
+            <div className="footer__links"> GST Suvidha Kendra </div>
+            <div className="footer__underlinks"> An Authorised GSP</div>
+            <div className="footer__phone">
+              <span className="footer__email">services@gstinsuvidhakendra.com</span>
+            </div>
+          </div>
+        </Link>
+        <div className="footer__tag__line">Goods and Services Tax</div>
       </div>
 
-    </div>
-
-  )
+      <div className="footer__bottom">
+        <Link className="bottom__link" to="/gst-filing">
+          <div className="bottom__services">GST registration
+</div>
+          <div className="bottom__services">GST cancelation</div>
+          <div className="bottom__services">
+            gst return filing</div>
+        </Link>
+        <Link className="bottom__link" to="/fssai">
+          <div className="bottom__services">FSSAI registration</div>
+        </Link>
+        <Link className="bottom__link" to="/msme">
+          <div className="bottom__services">MSME registration</div>
+        </Link>
+        <Link className="bottom__link" to="/E-way-bill">
+          <div className="bottom__services">
+            e way bill registration
+</div>
+        </Link>
+        <Link className="bottom__link" to="/pan">
+          <div className="bottom__services">pan registration
+</div>
+        </Link>
+      </div>
+    </nav>
+  );
 }
 
-export default Footer
+export default Footer;
