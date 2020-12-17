@@ -134,7 +134,7 @@ function Home() {
                     <div className="home__imgservices">
 
                             <div className="home__img">
-                                <a className="home__img" target="_blank" href ='https://gstinsuvidhakendra.com/gst-filing' >
+                                <a className="home__img" target="_blank"  rel="noreferrer" href ='https://gstinsuvidhakendra.com/gst-filing' >
                                     <img src={img2} alt="gst" />
                                     <span className="home__tag">GST</span>
                                 </a>
@@ -142,7 +142,7 @@ function Home() {
                             </div>
 
                             <div className="home__img">
-                                <a className="home__img" target="_blank" href ='https://gstinsuvidhakendra.com/fssai' >
+                                <a className="home__img" target="_blank"  rel="noreferrer" href ='https://gstinsuvidhakendra.com/fssai' >
                                     <img src={img1} alt="fssai" />
                                     <span className="home__tag">FSSAI</span>
                                 </a>
@@ -150,7 +150,7 @@ function Home() {
                             </div>
 
                             <div className="home__img">
-                                <a className="home__img" target="_blank" href ='https://gstinsuvidhakendra.com/MSME' >
+                                <a className="home__img" target="_blank"  rel="noreferrer" href ='https://gstinsuvidhakendra.com/MSME' >
                                     <img src={img5} alt="msme" />
                                     <span className="home__tag">MSME / UDYAM</span>
                                 </a>
@@ -158,7 +158,7 @@ function Home() {
                             </div>
 
                             <div className="home__img">
-                                <a className="home__img" target="_blank" href ='https://gstinsuvidhakendra.com/E-way-Bill' >
+                                <a className="home__img" target="_blank"  rel="noreferrer" href ='https://gstinsuvidhakendra.com/E-way-Bill' >
                                     <img src={img10} alt="E-way Bill" />
                                     <span className="home__tag">E-Way Bill</span>
                                 </a>
@@ -166,7 +166,7 @@ function Home() {
                             </div>
 
                             <div className="home__img">
-                                <a className="home__img" target="_blank" href ='https://gstinsuvidhakendra.com/PAN' >
+                                <a className="home__img" target="_blank"  rel="noreferrer" href ='https://gstinsuvidhakendra.com/PAN' >
                                     <img src={img9} alt="gst" />
                                     <span className="home__tag">PAN Card</span>
                                 </a>

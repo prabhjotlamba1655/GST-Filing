@@ -21,25 +21,25 @@ function Footer() {
       </div>
 
       <div className="footer__bottom">
-        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/gst-filing">
+        <a className="bottom__link" target="_blank"  rel="noreferrer" href="https://gstinsuvidhakendra.com/gst-filing">
           <div className="bottom__services">GST registration
 </div>
           <div className="bottom__services">GST cancelation</div>
           <div className="bottom__services">
             gst return filing</div>
         </a>
-        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/fssai">
+        <a className="bottom__link" target="_blank"  rel="noreferrer" href="https://gstinsuvidhakendra.com/fssai">
           <div className="bottom__services">FSSAI registration</div>
         </a>
-        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/msme">
+        <a className="bottom__link" target="_blank"  rel="noreferrer" href="https://gstinsuvidhakendra.com/msme">
           <div className="bottom__services">MSME registration</div>
         </a>
-        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/E-way-bill">
+        <a className="bottom__link" target="_blank"  rel="noreferrer" href="https://gstinsuvidhakendra.com/E-way-bill">
           <div className="bottom__services">
             e way bill registration
 </div>
         </a>
-        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/pan">
+        <a className="bottom__link" target="_blank"  rel="noreferrer" href="https://gstinsuvidhakendra.com/pan">
           <div className="bottom__services">pan registration
 </div>
         </a>

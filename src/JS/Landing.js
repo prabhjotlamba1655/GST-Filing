@@ -33,7 +33,7 @@ function Landing() {
                         is therefore expected to reshape India’s behemoth economy. A 20 percent drop in the travel time in the
                          interstate movements has been one of the positive impacts of the GST.
                         </span> <br />
-                        <a className="landing__link" target="_blank" href ='https://gstinsuvidhakendra.com/gst-filing'>
+                        <a className="landing__link" target="_blank"  rel="noreferrer" href ='https://gstinsuvidhakendra.com/gst-filing'>
                             Get your GST Registration Online !!!  
                         </a>
                         <br /> <br />
