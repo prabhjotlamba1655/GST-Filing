@@ -21,28 +21,28 @@ function Footer() {
       </div>
 
       <div className="footer__bottom">
-        <Link className="bottom__link" to="/gst-filing">
+        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/gst-filing">
           <div className="bottom__services">GST registration
 </div>
           <div className="bottom__services">GST cancelation</div>
           <div className="bottom__services">
             gst return filing</div>
-        </Link>
-        <Link className="bottom__link" to="/fssai">
+        </a>
+        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/fssai">
           <div className="bottom__services">FSSAI registration</div>
-        </Link>
-        <Link className="bottom__link" to="/msme">
+        </a>
+        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/msme">
           <div className="bottom__services">MSME registration</div>
-        </Link>
-        <Link className="bottom__link" to="/E-way-bill">
+        </a>
+        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/E-way-bill">
           <div className="bottom__services">
             e way bill registration
 </div>
-        </Link>
-        <Link className="bottom__link" to="/pan">
+        </a>
+        <a className="bottom__link" target="_blank" href="https://gstinsuvidhakendra.com/pan">
           <div className="bottom__services">pan registration
 </div>
-        </Link>
+        </a>
       </div>
     </nav>
   );

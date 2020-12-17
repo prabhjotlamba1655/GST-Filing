@@ -1,0 +1,49 @@
+.landing2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 1%;
+}
+
+.landing__heading{
+    font-size: 2.0rem ;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.offer__box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.offer__box1{
+    background: rgb(255,153,51);
+    background: linear-gradient(180deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1% 1%;
+    padding: 2% 2%;
+}
+
+.offer__box1__heading{
+    font-size: 1.7rem ;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.point1{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.gotobutton{
+    background-color: black;
+    color: white;
+    border-radius: 3px;   
+}
+

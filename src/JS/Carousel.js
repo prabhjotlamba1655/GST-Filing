@@ -13,13 +13,11 @@ function Carousel(){
         <div class="marquee">
             <ul class="marquee-content">
                 <li><img src={banner1} /></li>
-                <li><img src={banner2} /></li>
                 <li><img src={banner3} /></li>
                 <li><img src={bannerE} /></li>
                 <li><img src={bannerMSME} /></li>
 
                 <li><img src={banner1} /></li>
-                <li><img src={banner2} /></li>
                 <li><img src={banner3} /></li>
                 <li><img src={bannerE} /></li>
             </ul>

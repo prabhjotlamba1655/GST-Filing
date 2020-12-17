@@ -2,88 +2,60 @@
     background: rgb(255,153,51);
     background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__logo1{
-    flex: 0.3;
+    flex: 0.5;
     width: fit-content ;  
 }
 
 .header__logo{
-
     display: flex;
-    flex-direction: row;
     align-items: center;
     text-decoration: none !important;
-
 }
 
 .header__logo__text{
     display: flex;
     flex-direction: column;
-    padding : 5px;
-    justify-content: space-around;
 }
 
 .underlinks{
-    justify-content: space-around;
     font-size: 0.7rem;
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
 .email{
-   /* margin-top: 2%;*/
     font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
 .header__logo > img {
-    height: 125px;
-    width: 125px;
-    margin: 10px 0px;
-    margin-right: 5%;
+    height: 100px;
+    width: 100px;
+    margin: 2% 2%;
 }
 
 .header__middle{
-    flex: 0.5;
-    display: flex;
-    margin : 7px;
-    flex-direction: row;
-    align-items: right;
-    justify-content: space-evenly;
+    margin: 1% 1%;
 }
 
-.header__middle > img{
-    height: 80px;
-    width: 50px;
-    background-color: transparent;
-}
 .header__middle > span {
     color: black;
-    font-size: 2.5rem;    
-    font-weight: 700;
+    font-size: 2.1rem;    
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    text-decoration: none !important;
-
-}
-.header__links{
-    flex: 0.3;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: black;
 }
 
 
 .links{
     color: black;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
 
@@ -95,19 +67,22 @@
 @media screen and (max-width: 960px) {
 
 
-    
+    .links{
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
   
     .underlinks{
-        font-size: 0.2rem;
+        font-size: 0.5rem;
     }
 
     .email{
-        font-size: 0.2rem;
+        font-size: 0.5rem;
     }
     
     .header__logo > img {
-        height: 20px;
-        width: 20px;
+        height: 50px;
+        width: 50px;
     }
     
     .header__middle{
@@ -115,7 +90,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* justify-content: space-evenly; */
     }
     
     .header__middle > img{
@@ -124,24 +98,14 @@
     }
     .header__middle > span {
         color: black;
-        font-size: 0.4rem;
+        font-size: 0.9rem;
         text-decoration: none !important;
         font-family: 'Roboto', sans-serif;
     
     }
-    .header__links{
-        flex: 0.3;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        color: black;
-    }
+
     
-    
-    .links{
-        font-size:0.4rem;
-    }
-    
+  
     
 
 }

@@ -7,11 +7,11 @@
   
   .inputFieldInput{
       margin: 0px 5% ;
-      width: 300px;
+      /* width: 83%; */
   }
   
   .input-wrapper label {
-    color: white;
+    color: black;
     margin: 0px 5% ;
     margin-bottom: 5px;
     font-weight: bold;
